@@ -1,0 +1,13 @@
+{
+  "name": "taskflow",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n backend,frontend -c blue,green \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "cd backend && mvnw spring-boot:run",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "setup": "npm install && npm --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}

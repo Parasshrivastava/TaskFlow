@@ -1,13 +1,13 @@
-package com.Rps.TaskFlow;
+    package com.taskflow.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskFlowApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskFlowApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }

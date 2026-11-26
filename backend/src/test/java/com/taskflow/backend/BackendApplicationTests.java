@@ -1,10 +1,10 @@
-package com.Rps.TaskFlow;
+package com.taskflow.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskFlowApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {
