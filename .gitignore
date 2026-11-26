@@ -12,3 +12,4 @@ frontend/dist/
 *.local
 # Personal Claude Code notes
 CLAUDE.local.md
+plan.md
